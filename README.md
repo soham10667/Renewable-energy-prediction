@@ -22,8 +22,6 @@ Frontend Structure:
 │
 └── data/
 └── renewable_energy_cleaned.csv # Training dataset (Feature_1..Feature_10, Target)
-text
-
 ## 🚀 Quick Start
 
 ### Option 1: Run Locally (No Deployment)
