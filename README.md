@@ -7,21 +7,26 @@ Professional frontend application for solar / wind power prediction using Machin
 This is a **pure Vanilla JavaScript frontend** (HTML, CSS, JS) without any heavy frameworks.
 
 
-Frontend Structure:
-├── frontend/
-│ ├── index.html # Pure HTML structure (UI layout)
-│ ├── styles.css # All styling (dark theme, responsive)
-│ └── script.js # All JavaScript logic (form + API calls)
+```text
+Hydrogen-Energy-ML-Project/
 │
-├── backend/ # Flask API + ML model
-│ ├── app.py # REST API endpoints (/api/predict, /api/health)
-│ ├── model.py # Loads Linear Regression model + scaler
-│ ├── Linear_Regression_model.pkl
-│ ├── scaler.pkl
-│ └── requirements.txt
+├── frontend/
+│   ├── index.html                 # UI layout (HTML)
+│   ├── styles.css                 # Styling (dark theme, responsive)
+│   └── script.js                  # JavaScript logic (form + API calls)
+│
+├── backend/                       # Flask API + ML model
+│   ├── app.py                     # REST API endpoints (/predict, /health)
+│   ├── model.py                   # Loads ML model + scaler
+│   ├── Linear_Regression_model.pkl
+│   ├── scaler.pkl
+│   └── requirements.txt           # Backend dependencies
 │
 └── data/
-└── renewable_energy_cleaned.csv # Training dataset (Feature_1..Feature_10, Target)
+    └── renewable_energy_cleaned.csv   # Training dataset (features + target)
+```
+
+
 ## 🚀 Quick Start
 
 ### Option 1: Run Locally (No Deployment)
